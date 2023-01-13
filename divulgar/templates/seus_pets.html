@@ -17,7 +17,9 @@
                 <div class="col-md-2 bg-side sidebar">
                     <h2>ADO.TE</h2>
                     <hr>
-                    
+                    <ul>Home</ul>
+                    <ul>Adotar</ul>
+                    <ul>Divulgar</ul>
                     
                 </div>
 
@@ -32,7 +34,7 @@
                                     </div>
                                 {% endfor %}
                             {% endif %}
-                            <h3 class="font-vinho">Quero divulgar</h3>
+                            <h3 class="font-vinho">Seus Pets</h3>
                             <hr>
 
                              <table class="tabela" cellpadding="20">
@@ -60,7 +62,7 @@
                                                 {% if pet.status == "P" %}
                                                     <span class="badge text-bg-primary">Para adoção</span>
                                                 {% elif pets.status == "A" %}
-                                                <span class="badge text-bg-sucess">Adotado</span>
+                                                    <span class="badge text-bg-sucess">Adotado</span>
                                                 {% endif %}
                                             </td>
                                             <td>
